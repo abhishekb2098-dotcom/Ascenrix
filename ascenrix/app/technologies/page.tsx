@@ -210,7 +210,7 @@ export default function TechnologiesPage() {
                       delay: categoryIndex * 0.1 + techIndex * 0.05,
                       duration: 0.4,
                     }}
-                    whileHover={{ y: -8, shadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
+                    whileHover={{ y: -8 }}
                     className="bg-white p-8 rounded-xl shadow hover:shadow-xl transition cursor-pointer"
                   >
                     <div
